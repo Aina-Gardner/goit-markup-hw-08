@@ -17,9 +17,6 @@
   background-color: #ffffff;
   display: flex;
   align-items: center;
-  // justify-content: center;
-  // margin-top: 24px;
-  // margin-bottom: 25px;
 }
 
 .contact__item__mail {
@@ -70,7 +67,13 @@
   display: flex;
   align-items: flex-start;
   padding-right: 305px;
+
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
+
 }
+
 
 .logo {
   margin-right: 93px;
@@ -86,6 +89,10 @@
   justify-content: space-between;
   padding-top: 32px;
   padding-bottom: 32px;
+
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
 }
 
 .list-menu {

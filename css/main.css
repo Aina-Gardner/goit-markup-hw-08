@@ -79,6 +79,16 @@ body {
   padding: 0 15px;
   width: 1200px;
 }
+@media screen and (max-width: 767px) {
+  .container {
+    width: 480px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
 
 .container-header {
   width: 1200px;
@@ -400,6 +410,11 @@ body {
   align-items: flex-start;
   padding-right: 305px;
 }
+@media screen and (max-width: 767px) {
+  .menu {
+    display: none;
+  }
+}
 
 .logo {
   margin-right: 93px;
@@ -415,6 +430,11 @@ body {
   justify-content: space-between;
   padding-top: 32px;
   padding-bottom: 32px;
+}
+@media screen and (max-width: 767px) {
+  .contacts__list {
+    display: none;
+  }
 }
 
 .list-menu {
